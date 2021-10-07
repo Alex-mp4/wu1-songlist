@@ -1,0 +1,27 @@
+.container { 
+    max-width: 48rem;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: #87816C;
+}
+
+.record_header {
+    display: flex;
+}
+
+a {
+    color: #FFF2DE;
+}
+
+@media screen and (max-width: 512px) {
+    .record_header {
+        flex-direction: column;
+    }
+}
